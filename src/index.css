@@ -1,7 +1,10 @@
 @import "tailwindcss";
-
 @plugin "daisyui" {
   themes: light --default, dark;
+}
+
+*{
+  font-family: "Inter", sans-serif;
 }
 
 a.active {
@@ -10,3 +13,4 @@ a.active {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
