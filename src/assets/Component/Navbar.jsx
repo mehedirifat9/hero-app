@@ -1,20 +1,24 @@
 import React from 'react';
 import logo from '../resources/logo.png'
-import { NavLink } from 'react-router';
+import { Link, NavLink } from 'react-router';
+import { FaGithub } from "react-icons/fa";
+
 
 const Navbar = () => {
     return (
-        <div>
-            <div className='flex'>
-                <img className='w-[40px] h-[40px]' src={logo} alt="" />
-                <h3>HERO.IO</h3>
+        <div className='flex justify-between items-center mb-10'>
+            <div className='flex items-center'>
+                <Link to='/' className='flex items-center'><img className='w-[40px] h-[40px]' src={logo} alt="" />
+                <h3 className='font-bold ml-2 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent'>HERO.IO</h3></Link>
             </div>
-            <div>
-                <NavLink>Home</NavLink>
-                <NavLink>Apps</NavLink>
-                <NavLink>Installation</NavLink>
+            <div className='flex gap-10 font-bold'>
+                <NavLink to='/'>Home</NavLink>
+                <NavLink to='/apps'>Apps</NavLink>
+                <NavLink to='/installation'>Installation</NavLink>
             </div>
-            <div></div>
+            <div className='flex items-center'>
+                <Link to='https://github.com/mehedirifat9' target='blank' className='flex items-center gap-2 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] p-2 rounded-sm'><FaGithub className='text-white' /><button className='text-white font-semibold'>Contribute</button></Link>
+            </div>
         </div>
     );
 };
