@@ -2,12 +2,13 @@ import React from 'react';
 import { FaGooglePlay } from "react-icons/fa";
 import { FaAppStoreIos } from "react-icons/fa";
 import hero from '../resources/hero.png'
+import { Link, useLoaderData } from 'react-router';
+import TrendingData from '../Component/TrendingData';
 
-
-import { Link } from 'react-router';
 
 
 const Home = () => {
+    const trendingDatas = useLoaderData()
     return (
         <div className='mt-15 text-center flex flex-col items-center'>
             <h1 className='text-6xl font-semibold text-[#001931]'>We Build <br /> <span className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent'>Productive</span> Apps</h1>
@@ -18,7 +19,7 @@ const Home = () => {
                     <button>App Store</button></Link>
             </div>
             <img className='w-7/12 mt-10' src={hero} alt="" />
-            <div className='rounded-sm h-[380px] w-full bg-gradient-to-r from-[#632EE3] to-[#9F62F2]'>
+            <div className='mb-20 rounded-sm h-[380px] w-full bg-gradient-to-r from-[#632EE3] to-[#9F62F2]'>
                 <h3 className='mt-15 text-4xl text-white font-bold'>Trusted by Millions, Built for You</h3>
                 <div className='mt-10 flex justify-evenly'>
                     <div>
@@ -36,9 +37,17 @@ const Home = () => {
                         <h1 className='text-7xl text-white font-semibold'>132+</h1>
                         <p className='text-white font-light mt-3'>31 more will Launch</p>
                     </div>
-                    
+
                 </div>
             </div>
+            <h3 className='text-4xl font-bold mb-5'>Trending Apps</h3>
+            <p className='text-[#627382] mb-10'>Explore All Trending Apps on the Market developed by us</p>
+            <div className='grid grid-cols-4 gap-10 relative'>
+                {
+                    trendingDatas.map(data => <TrendingData data={data}></TrendingData>)
+                }
+            </div>
+            <Link to='/apps' className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white px-10 py-2 rounded-md'>Show All</Link>
         </div>
     );
 };

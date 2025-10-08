@@ -13,10 +13,12 @@ const router = createBrowserRouter([
   {
     path: '/',
     Component: MainLayout,
+    hydrateFallbackElement: <p>...Loading</p>,
     children: [
       {
         index: true,
         Component: Home,
+        loader: () => fetch('../public/trendingData.json'),
       },
       {
         path: '/apps',
