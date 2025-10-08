@@ -4,17 +4,32 @@
     "title": "ChatGPT",
     "companyName": "OpenAI",
     "id": 1,
-    "description": "Conversational AI assistant for text generation, productivity, and learning.",
+    "description": "ChatGPT is an advanced AI-powered conversational assistant developed by OpenAI. It helps users generate text, brainstorm ideas, and solve complex problems across multiple domains.\n\nThe platform leverages deep learning to understand context, providing coherent, human-like responses. It can assist with writing, coding, learning, and productivity tasks, adapting to individual user needs.\n\nWith continuous updates, ChatGPT improves its knowledge base and language capabilities. Users benefit from instant, personalized support, whether for casual queries, research, or professional assistance.\n\nIts intuitive interface ensures easy interaction for beginners and experts alike. ChatGPT exemplifies how AI can enhance daily workflows and learning, making intelligent assistance accessible to everyone.",
     "size": 90,
     "reviews": 28000000,
     "ratingAvg": 4.5,
     "downloads": 52000000,
     "ratings": [
-      { "name": "1 star", "count": 800000 },
-      { "name": "2 star", "count": 900000 },
-      { "name": "3 star", "count": 2500000 },
-      { "name": "4 star", "count": 8500000 },
-      { "name": "5 star", "count": 33000000 }
+      {
+        "name": "1 star",
+        "count": 800000
+      },
+      {
+        "name": "2 star",
+        "count": 900000
+      },
+      {
+        "name": "3 star",
+        "count": 2500000
+      },
+      {
+        "name": "4 star",
+        "count": 8500000
+      },
+      {
+        "name": "5 star",
+        "count": 33000000
+      }
     ]
   },
   {
@@ -22,17 +37,32 @@
     "title": "TikTok",
     "companyName": "ByteDance",
     "id": 2,
-    "description": "Short-video app for trends, music, filters, and creative expression.",
+    "description": "TikTok is a dynamic short-video platform that allows users to create, watch, and share engaging content with the global community.\n\nIt provides a wide variety of tools, filters, and effects to produce creative videos. Its algorithm recommends content tailored to each user, making discovery fun and addictive.\n\nTikTok fosters trends, challenges, and viral content, connecting people through entertainment and self-expression. The app also encourages interaction through comments, duets, and collaborations.\n\nRegular updates introduce new features and enhancements. TikTok has become a cultural phenomenon, offering a platform for creators to showcase talent and connect with audiences worldwide.",
     "size": 75,
     "reviews": 100000000,
     "ratingAvg": 4.6,
     "downloads": 39000000,
     "ratings": [
-      { "name": "1 star", "count": 1500000 },
-      { "name": "2 star", "count": 2000000 },
-      { "name": "3 star", "count": 5000000 },
-      { "name": "4 star", "count": 12000000 },
-      { "name": "5 star", "count": 20000000 }
+      {
+        "name": "1 star",
+        "count": 1500000
+      },
+      {
+        "name": "2 star",
+        "count": 2000000
+      },
+      {
+        "name": "3 star",
+        "count": 5000000
+      },
+      {
+        "name": "4 star",
+        "count": 12000000
+      },
+      {
+        "name": "5 star",
+        "count": 20000000
+      }
     ]
   },
   {
@@ -40,17 +70,32 @@
     "title": "Instagram",
     "companyName": "Meta Platforms, Inc.",
     "id": 3,
-    "description": "Social media platform for sharing photos, videos, stories, and reels.",
+    "description": "Instagram is a social media platform focused on sharing photos, videos, stories, and reels. It allows users to visually express themselves while following friends, influencers, and brands.\n\nThe platform provides editing tools, filters, and creative features to enhance content. Instagram’s Explore page curates personalized recommendations based on user interests.\n\nStories and Reels encourage short-form, engaging content, fostering interaction and engagement. Direct messaging, live streaming, and interactive stickers keep communication seamless.\n\nInstagram also serves as a marketing tool for businesses and creators, offering insights, analytics, and promotional options. It remains one of the most influential platforms for visual storytelling globally.",
     "size": 110,
     "reviews": 95000000,
     "ratingAvg": 4.5,
     "downloads": 38000000,
     "ratings": [
-      { "name": "1 star", "count": 2000000 },
-      { "name": "2 star", "count": 2500000 },
-      { "name": "3 star", "count": 6000000 },
-      { "name": "4 star", "count": 15000000 },
-      { "name": "5 star", "count": 22000000 }
+      {
+        "name": "1 star",
+        "count": 2000000
+      },
+      {
+        "name": "2 star",
+        "count": 2500000
+      },
+      {
+        "name": "3 star",
+        "count": 6000000
+      },
+      {
+        "name": "4 star",
+        "count": 15000000
+      },
+      {
+        "name": "5 star",
+        "count": 22000000
+      }
     ]
   },
   {
@@ -58,17 +103,32 @@
     "title": "Facebook",
     "companyName": "Meta Platforms, Inc.",
     "id": 4,
-    "description": "Connect with friends, join groups, and share updates across the world.",
+    "description": "Facebook is a comprehensive social networking platform that connects people worldwide, enabling communication, content sharing, and community engagement.\n\nUsers can post updates, photos, and videos, join groups, and interact with friends and family through comments and reactions. Its algorithm surfaces relevant content based on user preferences.\n\nFacebook also provides features for businesses and creators to reach audiences, advertise products, and analyze engagement through insights and analytics.\n\nWith events, marketplace, and live streaming options, the platform offers diverse functionalities for personal and professional use. It continues to evolve to meet the social, informational, and entertainment needs of its users.",
     "size": 100,
     "reviews": 90000000,
     "ratingAvg": 4.2,
     "downloads": 30000000,
     "ratings": [
-      { "name": "1 star", "count": 2500000 },
-      { "name": "2 star", "count": 3000000 },
-      { "name": "3 star", "count": 7000000 },
-      { "name": "4 star", "count": 16000000 },
-      { "name": "5 star", "count": 21000000 }
+      {
+        "name": "1 star",
+        "count": 2500000
+      },
+      {
+        "name": "2 star",
+        "count": 3000000
+      },
+      {
+        "name": "3 star",
+        "count": 7000000
+      },
+      {
+        "name": "4 star",
+        "count": 16000000
+      },
+      {
+        "name": "5 star",
+        "count": 21000000
+      }
     ]
   },
   {
@@ -76,17 +136,32 @@
     "title": "WhatsApp Messenger",
     "companyName": "Meta Platforms, Inc.",
     "id": 5,
-    "description": "Fast, secure messaging and calling across the globe.",
+    "description": "WhatsApp Messenger is a fast, secure messaging app that enables users to communicate through text, voice, and video messages globally.\n\nIt supports group chats, multimedia sharing, and status updates. End-to-end encryption ensures that conversations remain private and secure.\n\nWhatsApp also allows voice and video calls, even internationally, making it a versatile communication tool. Users can share documents, images, and locations seamlessly.\n\nThe app integrates with other services for business communication and provides easy backup options to protect chats. It remains one of the most trusted messaging platforms worldwide.",
     "size": 65,
     "reviews": 58000000,
     "ratingAvg": 4.4,
     "downloads": 27000000,
     "ratings": [
-      { "name": "1 star", "count": 1200000 },
-      { "name": "2 star", "count": 1500000 },
-      { "name": "3 star", "count": 4000000 },
-      { "name": "4 star", "count": 9000000 },
-      { "name": "5 star", "count": 33000000 }
+      {
+        "name": "1 star",
+        "count": 1200000
+      },
+      {
+        "name": "2 star",
+        "count": 1500000
+      },
+      {
+        "name": "3 star",
+        "count": 4000000
+      },
+      {
+        "name": "4 star",
+        "count": 9000000
+      },
+      {
+        "name": "5 star",
+        "count": 33000000
+      }
     ]
   },
   {
@@ -94,17 +169,32 @@
     "title": "Temu",
     "companyName": "Temu",
     "id": 6,
-    "description": "Online shopping for affordable fashion, electronics, and more.",
+    "description": "Temu is an online shopping platform offering a wide range of affordable fashion, electronics, home goods, and lifestyle products.\n\nThe app features personalized recommendations, daily deals, and seasonal promotions to help users find trending products. High-quality images and detailed product descriptions enhance the shopping experience.\n\nTemu also supports easy checkout, secure payment options, and tracking of shipments, ensuring a smooth and reliable shopping process.\n\nIts global reach and extensive inventory make it convenient for users seeking variety and value. Temu continues to expand its product offerings, catering to diverse consumer needs.",
     "size": 110,
     "reviews": 25000000,
     "ratingAvg": 4.3,
     "downloads": 26000000,
     "ratings": [
-      { "name": "1 star", "count": 1000000 },
-      { "name": "2 star", "count": 1400000 },
-      { "name": "3 star", "count": 4000000 },
-      { "name": "4 star", "count": 8000000 },
-      { "name": "5 star", "count": 11000000 }
+      {
+        "name": "1 star",
+        "count": 1000000
+      },
+      {
+        "name": "2 star",
+        "count": 1400000
+      },
+      {
+        "name": "3 star",
+        "count": 4000000
+      },
+      {
+        "name": "4 star",
+        "count": 8000000
+      },
+      {
+        "name": "5 star",
+        "count": 11000000
+      }
     ]
   },
   {
@@ -112,17 +202,32 @@
     "title": "CapCut",
     "companyName": "Bytedance Pte Ltd.",
     "id": 7,
-    "description": "Free all-in-one video editor for creating professional videos.",
+    "description": "CapCut is an all-in-one video editing app designed for creating professional-quality videos with ease.\n\nIt provides a variety of tools including transitions, effects, filters, text overlays, and music integration. Users can edit footage creatively and efficiently for social media or personal projects.\n\nCapCut supports high-resolution exports and offers templates for quick video creation. Tutorials and intuitive controls make it accessible for both beginners and advanced editors.\n\nThe app continues to evolve, incorporating new features and trends to meet the demands of modern content creators, making video editing a seamless experience.",
     "size": 160,
     "reviews": 30000000,
     "ratingAvg": 4.6,
     "downloads": 23000000,
     "ratings": [
-      { "name": "1 star", "count": 700000 },
-      { "name": "2 star", "count": 900000 },
-      { "name": "3 star", "count": 2500000 },
-      { "name": "4 star", "count": 6500000 },
-      { "name": "5 star", "count": 13500000 }
+      {
+        "name": "1 star",
+        "count": 700000
+      },
+      {
+        "name": "2 star",
+        "count": 900000
+      },
+      {
+        "name": "3 star",
+        "count": 2500000
+      },
+      {
+        "name": "4 star",
+        "count": 6500000
+      },
+      {
+        "name": "5 star",
+        "count": 13500000
+      }
     ]
   },
   {
@@ -130,17 +235,32 @@
     "title": "Threads",
     "companyName": "Meta Platforms, Inc.",
     "id": 8,
-    "description": "Text-based social platform built by the Instagram team.",
+    "description": "Threads is a text-focused social platform created by the Instagram team to facilitate real-time conversations and engagement.\n\nUsers can share updates, thoughts, and discussions in a streamlined, text-centric environment. The app encourages meaningful interaction while keeping content organized and easy to follow.\n\nIt integrates with Instagram profiles, enabling users to connect with their existing social networks and audiences.\n\nThreads supports discovery through trending topics and community engagement, offering a balance of personal expression and broader social interaction.",
     "size": 80,
     "reviews": 17000000,
     "ratingAvg": 4.4,
     "downloads": 23000000,
     "ratings": [
-      { "name": "1 star", "count": 500000 },
-      { "name": "2 star", "count": 700000 },
-      { "name": "3 star", "count": 2000000 },
-      { "name": "4 star", "count": 7000000 },
-      { "name": "5 star", "count": 12500000 }
+      {
+        "name": "1 star",
+        "count": 500000
+      },
+      {
+        "name": "2 star",
+        "count": 700000
+      },
+      {
+        "name": "3 star",
+        "count": 2000000
+      },
+      {
+        "name": "4 star",
+        "count": 7000000
+      },
+      {
+        "name": "5 star",
+        "count": 12500000
+      }
     ]
   }
 ]

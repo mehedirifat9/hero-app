@@ -3,43 +3,89 @@ import { Link, useLoaderData, useParams } from 'react-router';
 import { PiDownloadSimpleBold } from "react-icons/pi";
 import { FaStar } from "react-icons/fa";
 import { MdOutlineReviews } from "react-icons/md";
-
-
-
+import {
+    ComposedChart,
+    Bar,
+    YAxis,
+    ResponsiveContainer,
+    XAxis,
+    LabelList,
+} from 'recharts';
+import ErrorPage from './ErrorPage';
 
 const CardDetails = () => {
+
     const { id } = useParams()
     const appID = parseInt(id)
     const data = useLoaderData()
     const app = data.find(item => item.id === appID)
-    console.log(app.title);
+    const ratingsData = app.ratings
+    const chartData = ratingsData.map(rating => (
+        {
+        name: rating.name,
+        count: rating.count,
+        uv: 590,
+        pv: 800,
+        amt: 1400}
+    
+    ));
 
     return (
-        <div className='flex items-center p-10'>
-            <img className='h-[250px] w-[250px] mr-10' src={app.image} alt="" />
-            <div className='gap-5'>
-                <h3 className='text-3xl font-bold'>{app.title}</h3>
-                <p className='pt-2'>Developed by <span className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent font-bold'>productive.io</span></p>
-                <div className='flex gap-20 mb-7'>
-                    <div>
-                        <PiDownloadSimpleBold className='text-4xl mb-3 mt-5' />
-                        <p>Downloads</p>
-                        <h1 className='text-4xl font-bold mt-2'>{app.downloads}</h1>
+        <div>
+            {/* Details Card Starts Here  */}
+            <div className='flex items-center p-10'>
+                <img className='h-[250px] w-[250px] mr-10' src={app.image} alt="" />
+                <div className='gap-5'>
+                    <h3 className='text-3xl font-bold'>{app.title}</h3>
+                    <p className='pt-2'>Developed by <span className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent font-bold'>productive.io</span></p>
+                    <div className='flex gap-20 mb-7'>
+                        <div>
+                            <PiDownloadSimpleBold className='text-4xl mb-3 mt-5' />
+                            <p>Downloads</p>
+                            <h1 className='text-4xl font-bold mt-2'>{app.downloads}</h1>
+                        </div>
+                        <div>
+                            <FaStar className='text-4xl mb-3 mt-5' />
+                            <p>Average Ratings</p>
+                            <h1 className='text-4xl font-bold mt-2'>{app.ratingAvg}</h1>
+                        </div>
+                        <div>
+                            <MdOutlineReviews className='text-4xl mb-3 mt-5' />
+                            <p>Total Reviews</p>
+                            <h1 className='text-4xl font-bold mt-2'>{app.downloads}</h1>
+                        </div>
                     </div>
-                    <div>
-                        <FaStar className='text-4xl mb-3 mt-5' />
-                        <p>Average Ratings</p>
-                        <h1 className='text-4xl font-bold mt-2'>{app.ratingAvg}</h1>
-                    </div>
-                    <div>
-                        <MdOutlineReviews className='text-4xl mb-3 mt-5' />
-                        <p>Total Reviews</p>
-                        <h1 className='text-4xl font-bold mt-2'>{app.downloads}</h1>
-                    </div>
+                    <Link className='bg-[#00D390] font-bold px-10 py-3 text-white rounded-sm'>Install Now ({app.size}MB)</Link>
                 </div>
-            <Link className='bg-[#00D390] font-bold px-10 py-3 text-white rounded-sm'>Install Now ({app.size}MB)</Link>
             </div>
-
+            {/* Recharts Starts Here  */}
+            <div className="w-full h-[400px] mt-10 mb-20">
+                <h3 className='ml-15 mb-5 font-bold'>Ratings Details</h3>
+                <ResponsiveContainer>
+                    <ComposedChart
+                        layout="vertical"
+                        width={500}
+                        height={400}
+                        data={chartData}
+                        margin={{
+                            top: 20,
+                            right: 40,
+                            bottom: 20,
+                            left: 40,
+                        }}
+                    >
+                        <XAxis type="number" />
+                        <YAxis dataKey="name" type="category" width={80} />
+                        <Bar dataKey="count" barSize={25} fill="#9F62F2" radius={[5, 5, 5, 5]}>
+                            <LabelList dataKey="count" position="right" className='text-sm font-semibold' />
+                        </Bar>
+                    </ComposedChart>
+                </ResponsiveContainer>
+            </div>
+            <div>
+                <h3 className='ml-15 mb-5 font-bold'>Description</h3>
+                <p className='ml-15 mb-5'>{app.description}</p>
+            </div>
         </div>
     );
 };

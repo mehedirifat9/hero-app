@@ -4,7 +4,7 @@ import AllData from '../Component/AllData';
 
 const Apps = () => {
     const allDatas = useLoaderData()
-    console.log(allDatas.length);
+    // console.log(allDatas.length);
     return (
         <div>
             <div className='mt-15 mb-10 text-center'>
@@ -31,7 +31,7 @@ const Apps = () => {
             </div>
             <div className='grid grid-cols-4 gap-10'>
                 {
-                    allDatas.map(data => <AllData data={data}></AllData>)
+                    allDatas.map(data => <AllData key={data.id} data={data}></AllData>)
                 }
             </div>
         </div>

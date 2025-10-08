@@ -4,11 +4,12 @@ import { FaStar } from "react-icons/fa";
 import { Link } from 'react-router';
 
 const AllData = ({ data }) => {
+    // console.log(data.id);
     return (
-        <Link>
+        <Link to={`/apps/details/${data.id}`}>
             <div className='shadow-xl/30 px-3 py-5 mb-15 top-6 transition delay-100 duration-200 hover:-translate-y-5'>
                 <img className=' mx-auto text-center h-[150px] w-[150px]' src={data.image} alt="" />
-                <p className='mt-5 mb-5'>{data.description}</p>
+                <p className='mt-5 mb-5 text-center'>{data.title}</p>
                 <div className='flex justify-between'>
                     <div className='flex items-center gap-1 bg-[#F1F5E8]'>
                         <IoMdCodeDownload className='text-[#00D390]' />
