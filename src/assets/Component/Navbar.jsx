@@ -6,7 +6,7 @@ import { FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
     return (
-        <div className='flex justify-between items-center mb-10'>
+        <div className='flex justify-between items-center mb-10 mt-5'>
             <div className='flex items-center'>
                 <Link to='/' className='flex items-center'><img className='w-[40px] h-[40px]' src={logo} alt="" />
                 <h3 className='font-bold ml-2 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent'>HERO.IO</h3></Link>

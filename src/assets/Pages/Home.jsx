@@ -44,7 +44,7 @@ const Home = () => {
             <p className='text-[#627382] mb-10'>Explore All Trending Apps on the Market developed by us</p>
             <div className='grid grid-cols-4 gap-10'>
                 {
-                    trendingDatas.map(data => <TrendingData data={data}></TrendingData>)
+                    trendingDatas.map(data => <TrendingData key={data.id} data={data}></TrendingData>)
                 }
             </div>
             <Link to='/apps' className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white px-10 py-2 rounded-md'>Show All</Link>

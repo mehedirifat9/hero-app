@@ -8,7 +8,7 @@
         "size": 90,
         "reviews": 28000000,
         "ratingAvg": 4.5,
-        "downloads": 52000000,
+        "downloads": "5M",
         "ratings": [
             {
                 "name": "1 star",
@@ -41,7 +41,7 @@
         "size": 75,
         "reviews": 100000000,
         "ratingAvg": 4.6,
-        "downloads": 39000000,
+        "downloads": "3M",
         "ratings": [
             {
                 "name": "1 star",
@@ -74,7 +74,7 @@
         "size": 110,
         "reviews": 95000000,
         "ratingAvg": 4.5,
-        "downloads": 38000000,
+        "downloads": "6M",
         "ratings": [
             {
                 "name": "1 star",
@@ -107,7 +107,7 @@
         "size": 100,
         "reviews": 90000000,
         "ratingAvg": 4.2,
-        "downloads": 30000000,
+        "downloads": "3M",
         "ratings": [
             {
                 "name": "1 star",
@@ -140,7 +140,7 @@
         "size": 65,
         "reviews": 58000000,
         "ratingAvg": 4.4,
-        "downloads": 27000000,
+        "downloads": "9M",
         "ratings": [
             {
                 "name": "1 star",
@@ -173,7 +173,7 @@
         "size": 110,
         "reviews": 25000000,
         "ratingAvg": 4.3,
-        "downloads": 26000000,
+        "downloads": "260K",
         "ratings": [
             {
                 "name": "1 star",
@@ -206,7 +206,7 @@
         "size": 160,
         "reviews": 30000000,
         "ratingAvg": 4.6,
-        "downloads": 23000000,
+        "downloads": "1M",
         "ratings": [
             {
                 "name": "1 star",
@@ -239,7 +239,7 @@
         "size": 80,
         "reviews": 17000000,
         "ratingAvg": 4.4,
-        "downloads": 23000000,
+        "downloads": "8M",
         "ratings": [
             {
                 "name": "1 star",
@@ -272,7 +272,7 @@
         "size": 70,
         "reviews": 40000000,
         "ratingAvg": 4.5,
-        "downloads": 20000000,
+        "downloads": "2M",
         "ratings": [
             {
                 "name": "1 star",
@@ -305,7 +305,7 @@
         "size": 120,
         "reviews": 35000000,
         "ratingAvg": 4.3,
-        "downloads": 20000000,
+        "downloads": "2M",
         "ratings": [
             {
                 "name": "1 star",
@@ -338,7 +338,7 @@
         "size": 95,
         "reviews": 120000000,
         "ratingAvg": 4.5,
-        "downloads": 19000000,
+        "downloads": "1M",
         "ratings": [
             {
                 "name": "1 star",
@@ -371,7 +371,7 @@
         "size": 90,
         "reviews": 60000000,
         "ratingAvg": 4.1,
-        "downloads": 17000000,
+        "downloads": "8M",
         "ratings": [
             {
                 "name": "1 star",
@@ -404,7 +404,7 @@
         "size": 70,
         "reviews": 50000000,
         "ratingAvg": 4.6,
-        "downloads": 16000000,
+        "downloads": "16M",
         "ratings": [
             {
                 "name": "1 star",
@@ -437,7 +437,7 @@
         "size": 85,
         "reviews": 75000000,
         "ratingAvg": 4.5,
-        "downloads": 15000000,
+        "downloads": "15M",
         "ratings": [
             {
                 "name": "1 star",
@@ -470,7 +470,7 @@
         "size": 130,
         "reviews": 45000000,
         "ratingAvg": 4.4,
-        "downloads": 14000000,
+        "downloads": "14M",
         "ratings": [
             {
                 "name": "1 star",
@@ -503,7 +503,7 @@
         "size": 60,
         "reviews": 30000000,
         "ratingAvg": 4.6,
-        "downloads": 13000000,
+        "downloads": "13M",
         "ratings": [
             {
                 "name": "1 star",
@@ -536,7 +536,7 @@
         "size": 130,
         "reviews": 80000000,
         "ratingAvg": 4.5,
-        "downloads": 12000000,
+        "downloads": "12M",
         "ratings": [
             {
                 "name": "1 star",
@@ -569,7 +569,7 @@
         "size": 100,
         "reviews": 34000000,
         "ratingAvg": 4.3,
-        "downloads": 11000000,
+        "downloads": "11M",
         "ratings": [
             {
                 "name": "1 star",
@@ -602,7 +602,7 @@
         "size": 95,
         "reviews": 90000000,
         "ratingAvg": 4.4,
-        "downloads": 10000000,
+        "downloads": "10M",
         "ratings": [
             {
                 "name": "1 star",
@@ -635,7 +635,7 @@
         "size": 120,
         "reviews": 110000000,
         "ratingAvg": 4.5,
-        "downloads": 9500000,
+        "downloads": "9M",
         "ratings": [
             {
                 "name": "1 star",
@@ -668,7 +668,7 @@
         "size": 70,
         "reviews": 24000000,
         "ratingAvg": 4.4,
-        "downloads": 8500000,
+        "downloads": "10M",
         "ratings": [
             {
                 "name": "1 star",
@@ -701,7 +701,7 @@
         "size": 115,
         "reviews": 33000000,
         "ratingAvg": 4.5,
-        "downloads": 8000000,
+        "downloads": "8M",
         "ratings": [
             {
                 "name": "1 star",
@@ -734,7 +734,7 @@
         "size": 105,
         "reviews": 42000000,
         "ratingAvg": 4.3,
-        "downloads": 7800000,
+        "downloads": "8M",
         "ratings": [
             {
                 "name": "1 star",
@@ -767,7 +767,7 @@
         "size": 150,
         "reviews": 28000000,
         "ratingAvg": 4.4,
-        "downloads": 7000000,
+        "downloads": "7M",
         "ratings": [
             {
                 "name": "1 star",
@@ -788,138 +788,6 @@
             {
                 "name": "5 star",
                 "count": 4100000
-            }
-        ]
-    },
-    {
-        "image": "https://img.freepik.com/premium-vector/vector-discord-social-media-logo_534308-21667.jpg?semt=ais_hybrid&w=740&q=80",
-        "title": "Discord",
-        "companyName": "Discord Inc.",
-        "id": 25,
-        "description": "Chat app for communities, gamers, communication.",
-        "size": 160,
-        "reviews": 39000000,
-        "ratingAvg": 4.6,
-        "downloads": 6500000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 350000
-            },
-            {
-                "name": "2 star",
-                "count": 450000
-            },
-            {
-                "name": "3 star",
-                "count": 1100000
-            },
-            {
-                "name": "4 star",
-                "count": 2000000
-            },
-            {
-                "name": "5 star",
-                "count": 2650000
-            }
-        ]
-    },
-    {
-        "image": "https://img.freepik.com/premium-vector/social-media-icon-illustration-reddit-reddit-icon-vector-illustration_561158-2149.jpg?semt=ais_hybrid&w=740&q=80",
-        "title": "Reddit",
-        "companyName": "Reddit Inc.",
-        "id": 26,
-        "description": "Community discussion platform with trending news and memes.",
-        "size": 85,
-        "reviews": 27000000,
-        "ratingAvg": 4.4,
-        "downloads": 6200000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 300000
-            },
-            {
-                "name": "2 star",
-                "count": 500000
-            },
-            {
-                "name": "3 star",
-                "count": 1200000
-            },
-            {
-                "name": "4 star",
-                "count": 2100000
-            },
-            {
-                "name": "5 star",
-                "count": 2700000
-            }
-        ]
-    },
-    {
-        "image": "https://static.vecteezy.com/system/resources/previews/018/910/833/non_2x/tinder-app-logo-tinder-app-icon-free-free-vector.jpg",
-        "title": "Tinder",
-        "companyName": "Match Group, LLC",
-        "id": 27,
-        "description": "Swipe, match, and chat with people nearby.",
-        "size": 75,
-        "reviews": 31000000,
-        "ratingAvg": 4.2,
-        "downloads": 6100000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 400000
-            },
-            {
-                "name": "2 star",
-                "count": 600000
-            },
-            {
-                "name": "3 star",
-                "count": 1400000
-            },
-            {
-                "name": "4 star",
-                "count": 2100000
-            },
-            {
-                "name": "5 star",
-                "count": 2700000
-            }
-        ]
-    },
-    {
-        "image": "https://d35aaqx5ub95lt.cloudfront.net/images/f2a2e608c854822ad2563a09595e7827.png",
-        "title": "Duolingo",
-        "companyName": "Duolingo, Inc.",
-        "id": 28,
-        "description": "Learn languages for free through fun, gamified lessons.",
-        "size": 120,
-        "reviews": 43000000,
-        "ratingAvg": 4.7,
-        "downloads": 6000000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 200000
-            },
-            {
-                "name": "2 star",
-                "count": 300000
-            },
-            {
-                "name": "3 star",
-                "count": 800000
-            },
-            {
-                "name": "4 star",
-                "count": 1800000
-            },
-            {
-                "name": "5 star",
-                "count": 2900000
             }
         ]
     }

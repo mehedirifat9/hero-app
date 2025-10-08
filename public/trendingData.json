@@ -1,266 +1,146 @@
 [
-    {
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMdM9MEQ0ExL1PmInT3U5I8v63YXBEdoIT0Q&s",
-        "title": "ChatGPT",
-        "companyName": "OpenAI",
-        "id": 1,
-        "description": "Conversational AI assistant for text generation, productivity, and learning.",
-        "size": 90,
-        "reviews": 28000000,
-        "ratingAvg": 4.5,
-        "downloads": 52000000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 800000
-            },
-            {
-                "name": "2 star",
-                "count": 900000
-            },
-            {
-                "name": "3 star",
-                "count": 2500000
-            },
-            {
-                "name": "4 star",
-                "count": 8500000
-            },
-            {
-                "name": "5 star",
-                "count": 33000000
-            }
-        ]
-    },
-    {
-        "image": "https://i.pinimg.com/736x/e4/06/19/e406192290967ba61e8277e7dbfde0a5.jpg",
-        "title": "TikTok",
-        "companyName": "ByteDance",
-        "id": 2,
-        "description": "Short-video app for trends, music, filters, and creative expression.",
-        "size": 75,
-        "reviews": 100000000,
-        "ratingAvg": 4.6,
-        "downloads": 39000000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 1500000
-            },
-            {
-                "name": "2 star",
-                "count": 2000000
-            },
-            {
-                "name": "3 star",
-                "count": 5000000
-            },
-            {
-                "name": "4 star",
-                "count": 12000000
-            },
-            {
-                "name": "5 star",
-                "count": 20000000
-            }
-        ]
-    },
-    {
-        "image": "https://img.freepik.com/premium-psd/instagram-application-logo_23-2151544088.jpg?semt=ais_hybrid&w=740&q=80",
-        "title": "Instagram",
-        "companyName": "Meta Platforms, Inc.",
-        "id": 3,
-        "description": "Social media platform for sharing photos, videos, stories, and reels.",
-        "size": 110,
-        "reviews": 95000000,
-        "ratingAvg": 4.5,
-        "downloads": 38000000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 2000000
-            },
-            {
-                "name": "2 star",
-                "count": 2500000
-            },
-            {
-                "name": "3 star",
-                "count": 6000000
-            },
-            {
-                "name": "4 star",
-                "count": 15000000
-            },
-            {
-                "name": "5 star",
-                "count": 22000000
-            }
-        ]
-    },
-    {
-        "image": "https://img.freepik.com/premium-vector/vector-facebook-social-media-icon-illustration_534308-21672.jpg?semt=ais_hybrid&w=740&q=80",
-        "title": "Facebook",
-        "companyName": "Meta Platforms, Inc.",
-        "id": 4,
-        "description": "Connect with friends, join groups, and share updates across the world.",
-        "size": 100,
-        "reviews": 90000000,
-        "ratingAvg": 4.2,
-        "downloads": 30000000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 2500000
-            },
-            {
-                "name": "2 star",
-                "count": 3000000
-            },
-            {
-                "name": "3 star",
-                "count": 7000000
-            },
-            {
-                "name": "4 star",
-                "count": 16000000
-            },
-            {
-                "name": "5 star",
-                "count": 21000000
-            }
-        ]
-    },
-    {
-        "image": "https://img.freepik.com/premium-vector/green-square-social-media-logo_197792-2919.jpg?semt=ais_hybrid&w=740&q=80",
-        "title": "WhatsApp Messenger",
-        "companyName": "Meta Platforms, Inc.",
-        "id": 5,
-        "description": "Fast, secure messaging and calling across the globe.",
-        "size": 65,
-        "reviews": 58000000,
-        "ratingAvg": 4.4,
-        "downloads": 27000000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 1200000
-            },
-            {
-                "name": "2 star",
-                "count": 1500000
-            },
-            {
-                "name": "3 star",
-                "count": 4000000
-            },
-            {
-                "name": "4 star",
-                "count": 9000000
-            },
-            {
-                "name": "5 star",
-                "count": 33000000
-            }
-        ]
-    },
-    {
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Temu_logo_icon.svg/1200px-Temu_logo_icon.svg.png",
-        "title": "Temu",
-        "companyName": "Temu",
-        "id": 6,
-        "description": "Online shopping for affordable fashion, electronics, and more.",
-        "size": 110,
-        "reviews": 25000000,
-        "ratingAvg": 4.3,
-        "downloads": 26000000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 1000000
-            },
-            {
-                "name": "2 star",
-                "count": 1400000
-            },
-            {
-                "name": "3 star",
-                "count": 4000000
-            },
-            {
-                "name": "4 star",
-                "count": 8000000
-            },
-            {
-                "name": "5 star",
-                "count": 11000000
-            }
-        ]
-    },
-    {
-        "image": "https://static.vecteezy.com/system/resources/previews/013/948/546/non_2x/capcut-logo-on-transparent-white-background-free-vector.jpg",
-        "title": "CapCut",
-        "companyName": "Bytedance Pte Ltd.",
-        "id": 7,
-        "description": "Free all-in-one video editor for creating professional-looking videos.",
-        "size": 160,
-        "reviews": 30000000,
-        "ratingAvg": 4.6,
-        "downloads": 23000000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 700000
-            },
-            {
-                "name": "2 star",
-                "count": 900000
-            },
-            {
-                "name": "3 star",
-                "count": 2500000
-            },
-            {
-                "name": "4 star",
-                "count": 6500000
-            },
-            {
-                "name": "5 star",
-                "count": 13500000
-            }
-        ]
-    },
-    {
-        "image": "https://img.freepik.com/free-vector/threads-app-logo-icon-isolated-white-background_1017-45264.jpg?semt=ais_hybrid&w=740&q=80",
-        "title": "Threads",
-        "companyName": "Meta Platforms, Inc.",
-        "id": 8,
-        "description": "Text-based social platform built by the Instagram team.",
-        "size": 80,
-        "reviews": 17000000,
-        "ratingAvg": 4.4,
-        "downloads": 23000000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 500000
-            },
-            {
-                "name": "2 star",
-                "count": 700000
-            },
-            {
-                "name": "3 star",
-                "count": 2000000
-            },
-            {
-                "name": "4 star",
-                "count": 7000000
-            },
-            {
-                "name": "5 star",
-                "count": 12500000
-            }
-        ]
-    }
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMdM9MEQ0ExL1PmInT3U5I8v63YXBEdoIT0Q&s",
+    "title": "ChatGPT",
+    "companyName": "OpenAI",
+    "id": 1,
+    "description": "Conversational AI assistant for text generation, productivity, and learning.",
+    "size": 90,
+    "reviews": 28000000,
+    "ratingAvg": 4.5,
+    "downloads": 52000000,
+    "ratings": [
+      { "name": "1 star", "count": 800000 },
+      { "name": "2 star", "count": 900000 },
+      { "name": "3 star", "count": 2500000 },
+      { "name": "4 star", "count": 8500000 },
+      { "name": "5 star", "count": 33000000 }
+    ]
+  },
+  {
+    "image": "https://i.pinimg.com/1200x/e4/06/19/e406192290967ba61e8277e7dbfde0a5.jpg",
+    "title": "TikTok",
+    "companyName": "ByteDance",
+    "id": 2,
+    "description": "Short-video app for trends, music, filters, and creative expression.",
+    "size": 75,
+    "reviews": 100000000,
+    "ratingAvg": 4.6,
+    "downloads": 39000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500000 },
+      { "name": "2 star", "count": 2000000 },
+      { "name": "3 star", "count": 5000000 },
+      { "name": "4 star", "count": 12000000 },
+      { "name": "5 star", "count": 20000000 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/premium-psd/instagram-application-logo_23-2151544088.jpg?semt=ais_hybrid&w=740&q=80",
+    "title": "Instagram",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 3,
+    "description": "Social media platform for sharing photos, videos, stories, and reels.",
+    "size": 110,
+    "reviews": 95000000,
+    "ratingAvg": 4.5,
+    "downloads": 38000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 2500000 },
+      { "name": "3 star", "count": 6000000 },
+      { "name": "4 star", "count": 15000000 },
+      { "name": "5 star", "count": 22000000 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/premium-vector/vector-facebook-social-media-icon-illustration_534308-21672.jpg?semt=ais_hybrid&w=740&q=80",
+    "title": "Facebook",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 4,
+    "description": "Connect with friends, join groups, and share updates across the world.",
+    "size": 100,
+    "reviews": 90000000,
+    "ratingAvg": 4.2,
+    "downloads": 30000000,
+    "ratings": [
+      { "name": "1 star", "count": 2500000 },
+      { "name": "2 star", "count": 3000000 },
+      { "name": "3 star", "count": 7000000 },
+      { "name": "4 star", "count": 16000000 },
+      { "name": "5 star", "count": 21000000 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/premium-vector/green-square-social-media-logo_197792-2919.jpg?semt=ais_hybrid&w=740&q=80",
+    "title": "WhatsApp Messenger",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 5,
+    "description": "Fast, secure messaging and calling across the globe.",
+    "size": 65,
+    "reviews": 58000000,
+    "ratingAvg": 4.4,
+    "downloads": 27000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200000 },
+      { "name": "2 star", "count": 1500000 },
+      { "name": "3 star", "count": 4000000 },
+      { "name": "4 star", "count": 9000000 },
+      { "name": "5 star", "count": 33000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Temu_logo_icon.svg/1200px-Temu_logo_icon.svg.png",
+    "title": "Temu",
+    "companyName": "Temu",
+    "id": 6,
+    "description": "Online shopping for affordable fashion, electronics, and more.",
+    "size": 110,
+    "reviews": 25000000,
+    "ratingAvg": 4.3,
+    "downloads": 26000000,
+    "ratings": [
+      { "name": "1 star", "count": 1000000 },
+      { "name": "2 star", "count": 1400000 },
+      { "name": "3 star", "count": 4000000 },
+      { "name": "4 star", "count": 8000000 },
+      { "name": "5 star", "count": 11000000 }
+    ]
+  },
+  {
+    "image": "https://static.vecteezy.com/system/resources/previews/013/948/546/non_2x/capcut-logo-on-transparent-white-background-free-vector.jpg",
+    "title": "CapCut",
+    "companyName": "Bytedance Pte Ltd.",
+    "id": 7,
+    "description": "Free all-in-one video editor for creating professional videos.",
+    "size": 160,
+    "reviews": 30000000,
+    "ratingAvg": 4.6,
+    "downloads": 23000000,
+    "ratings": [
+      { "name": "1 star", "count": 700000 },
+      { "name": "2 star", "count": 900000 },
+      { "name": "3 star", "count": 2500000 },
+      { "name": "4 star", "count": 6500000 },
+      { "name": "5 star", "count": 13500000 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/free-vector/threads-app-logo-icon-isolated-white-background_1017-45264.jpg?semt=ais_hybrid&w=740&q=80",
+    "title": "Threads",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 8,
+    "description": "Text-based social platform built by the Instagram team.",
+    "size": 80,
+    "reviews": 17000000,
+    "ratingAvg": 4.4,
+    "downloads": 23000000,
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 7000000 },
+      { "name": "5 star", "count": 12500000 }
+    ]
+  }
 ]

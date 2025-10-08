@@ -6,10 +6,10 @@ import { Link } from 'react-router';
 
 
 const TrendingData = ({ data }) => {
-    console.log(data);
+    // console.log(data);
     return (
-        <Link>
-            <div className='shadow-xl/30 px-3 py-5 mb-15 top-6 transition delay-100 duration-200 hover:-translate-y-5'>
+        <Link to={`/details/${data.id}`}>
+            <div className=' shadow-xl/30 px-3 py-5 mb-15 top-6 transition delay-100 duration-200 hover:-translate-y-5'>
                 <img className=' mx-auto text-center h-[150px] w-[150px]' src={data.image} alt="" />
                 <p className='mt-5 mb-5'>{data.description}</p>
                 <div className='flex justify-between'>

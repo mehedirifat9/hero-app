@@ -7,7 +7,7 @@ const Apps = () => {
     console.log(allDatas.length);
     return (
         <div>
-            <div className='mt-15 mb-10'>
+            <div className='mt-15 mb-10 text-center'>
                 <h3 className='text-[#001931] text-5xl font-bold'>Our All Applications</h3>
                 <p className='mt-5 text-[#627382]'>Explore All Apps on the Market developed by us. We code for Millions</p>
                 <div className='flex justify-between mt-10'>

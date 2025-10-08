@@ -1,12 +1,12 @@
 import { Component, StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router'
 import Home from './assets/Pages/Home.jsx'
 import Apps from './assets/Pages/Apps.jsx'
 import Installation from './assets/Pages/Installation.jsx'
 import MainLayout from './assets/Layouts/MainLayout.jsx'
+import CardDetails from './assets/Component/CardDetails.jsx'
 
 
 const router = createBrowserRouter([
@@ -28,6 +28,11 @@ const router = createBrowserRouter([
       {
         path: '/installation',
         Component: Installation,
+      },
+      {
+        path:'/details/:id',
+        loader: () => fetch('../public/AllData.json'),
+        Component: CardDetails
       }
     ]
   }
