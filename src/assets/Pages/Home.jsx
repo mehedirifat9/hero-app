@@ -19,7 +19,7 @@ const Home = () => {
                     <button>App Store</button></Link>
             </div>
             <img className='w-7/12 mt-10' src={hero} alt="" />
-            <div className='mb-20 rounded-sm h-[380px] w-full bg-gradient-to-r from-[#632EE3] to-[#9F62F2]'>
+            <div className='mb-20 rounded-lg h-[380px] w-full bg-gradient-to-r from-[#632EE3] to-[#9F62F2]'>
                 <h3 className='mt-15 text-4xl text-white font-bold'>Trusted by Millions, Built for You</h3>
                 <div className='mt-10 flex justify-evenly'>
                     <div>
@@ -42,7 +42,7 @@ const Home = () => {
             </div>
             <h3 className='text-4xl font-bold mb-5'>Trending Apps</h3>
             <p className='text-[#627382] mb-10'>Explore All Trending Apps on the Market developed by us</p>
-            <div className='grid grid-cols-4 gap-10 relative'>
+            <div className='grid grid-cols-4 gap-10'>
                 {
                     trendingDatas.map(data => <TrendingData data={data}></TrendingData>)
                 }

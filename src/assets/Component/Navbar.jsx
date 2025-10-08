@@ -17,7 +17,7 @@ const Navbar = () => {
                 <NavLink to='/installation'>Installation</NavLink>
             </div>
             <div className='flex items-center'>
-                <Link to='https://github.com/mehedirifat9' target='blank' className='flex items-center gap-2 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] p-2 rounded-sm'><FaGithub className='text-white' /><button className='text-white font-semibold'>Contribute</button></Link>
+                <Link to='https://github.com/mehedirifat9' target='blank' className='flex items-center gap-2 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] p-2 rounded-sm text-white font-semibold'><FaGithub className='text-white' />Contribute</Link>
             </div>
         </div>
     );

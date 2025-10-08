@@ -1,12 +1,9 @@
 import React from 'react';
-import { IoMdDownload } from "react-icons/io";
+import { IoMdCodeDownload } from "react-icons/io";
 import { FaStar } from "react-icons/fa";
 import { Link } from 'react-router';
 
-
-
-const TrendingData = ({ data }) => {
-    console.log(data);
+const AllData = ({ data }) => {
     return (
         <Link>
             <div className='shadow-xl/30 px-3 py-5 mb-15 top-6 transition delay-100 duration-200 hover:-translate-y-5'>
@@ -14,7 +11,7 @@ const TrendingData = ({ data }) => {
                 <p className='mt-5 mb-5'>{data.description}</p>
                 <div className='flex justify-between'>
                     <div className='flex items-center gap-1 bg-[#F1F5E8]'>
-                        <IoMdDownload className='text-[#00D390]' />
+                        <IoMdCodeDownload className='text-[#00D390]' />
                         <p className='text-[#00D390]'>9M</p>
                     </div>
                     <div className='bg-[#FFF0E1] flex items-center gap-1'>
@@ -27,5 +24,4 @@ const TrendingData = ({ data }) => {
     );
 };
 
-export default TrendingData;
-
+export default AllData;
