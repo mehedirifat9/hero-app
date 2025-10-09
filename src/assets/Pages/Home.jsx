@@ -13,15 +13,15 @@ const Home = () => {
         <div className='mt-15 text-center flex flex-col items-center'>
             <h1 className='text-6xl font-semibold text-[#001931]'>We Build <br /> <span className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent'>Productive</span> Apps</h1>
             <p className='w-9/12 mx-auto mt-10 text-[#627382]'>At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
-            <div className='flex justify-center mt-10 gap-10'>
-                <Link target='blank' to='https://play.google.com/store/games?hl=en&pli=1' className='font-semibold border p-3 rounded-lg flex items-center gap-3'><FaGooglePlay /><button>Google Play</button></Link>
+            <div className='lg:flex justify-center mt-10 gap-10'>
+                <Link target='blank' to='https://play.google.com/store/games?hl=en&pli=1' className='font-semibold border p-3 rounded-lg flex items-center gap-3 mb-5 lg:mb-0'><FaGooglePlay /><button>Google Play</button></Link>
                 <Link target='blank' to='https://www.apple.com/app-store/' className='font-semibold border-1 p-3 rounded-lg flex items-center gap-3'><FaAppStoreIos />
                     <button>App Store</button></Link>
             </div>
             <img className='w-7/12 mt-10' src={hero} alt="" />
-            <div className='mb-20 rounded-lg h-[380px] w-full bg-gradient-to-r from-[#632EE3] to-[#9F62F2]'>
+            <div className='mb-20 rounded-lg lg:h-[380px] w-full bg-gradient-to-r from-[#632EE3] to-[#9F62F2]'>
                 <h3 className='mt-15 text-4xl text-white font-bold'>Trusted by Millions, Built for You</h3>
-                <div className='mt-10 flex justify-evenly'>
+                <div className='mt-10 lg:flex justify-evenly'>
                     <div>
                         <p className='text-white font-light mb-3'>Total Downloads</p>
                         <h1 className='text-7xl text-white font-semibold'>29.6M</h1>
@@ -35,19 +35,19 @@ const Home = () => {
                     <div>
                         <p className='text-white font-light mb-3'>Active Apps</p>
                         <h1 className='text-7xl text-white font-semibold'>132+</h1>
-                        <p className='text-white font-light mt-3'>31 more will Launch</p>
+                        <p className='text-white font-light mt-3 pb-10 lg:pb-0'>31 more will Launch</p>
                     </div>
 
                 </div>
             </div>
             <h3 className='text-4xl font-bold mb-5'>Trending Apps</h3>
             <p className='text-[#627382] mb-10'>Explore All Trending Apps on the Market developed by us</p>
-            <div className='grid grid-cols-4 gap-10'>
+            <div className='grid lg:grid-cols-4 justify-between gap-10'>
                 {
                     trendingDatas.map(data => <TrendingData key={data.id} data={data}></TrendingData>)
                 }
             </div>
-            <Link to='/apps' className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white px-10 py-2 rounded-md'>Show All</Link>
+            <Link to='/apps' className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white px-10 py-2 rounded-md lg:mt-10'>Show All</Link>
         </div>
     );
 };

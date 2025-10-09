@@ -9,17 +9,17 @@ const TrendingData = ({ data }) => {
     // console.log(data);
     return (
         <Link to={`/details/${data.id}`}>
-            <div className=' shadow-xl/30 px-3 py-5 mb-15 top-6 transition delay-100 duration-200 hover:-translate-y-5'>
-                <img className=' mx-auto text-center h-[150px] w-[150px]' src={data.image} alt="" />
+            <div className=' shadow-xl/30 m-10 lg:m-0 px-3 py-5 mb-15 top-6 transition delay-100 duration-200 hover:-translate-y-5'>
+                <img className=' mx-auto text-center lg:h-[150px] lg:w-[150px]' src={data.image} alt="" />
                 <p className='mt-5 mb-5'>{data.title}</p>
                 <div className='flex justify-between'>
                     <div className='flex items-center gap-1 bg-[#F1F5E8]'>
                         <IoMdDownload className='text-[#00D390]' />
-                        <p className='text-[#00D390]'>9M</p>
+                        <p className='text-[#00D390]'>{data.downloads}</p>
                     </div>
                     <div className='bg-[#FFF0E1] flex items-center gap-1'>
                         <FaStar className='text-[#FF8811]' />
-                        <p className='-[#FF8811]'>5</p>
+                        <p className='-[#FF8811]'>{data.ratingAvg}</p>
                     </div>
                 </div>
             </div>

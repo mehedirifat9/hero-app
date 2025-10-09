@@ -1,4 +1,4 @@
-import { Component, StrictMode } from 'react'
+import {React, Component, StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router'
@@ -8,6 +8,7 @@ import Installation from './assets/Pages/Installation.jsx'
 import MainLayout from './assets/Layouts/MainLayout.jsx'
 import CardDetails from './assets/Component/CardDetails.jsx'
 import ErrorPage from './assets/Component/ErrorPage.jsx'
+import { PropagateLoader } from 'react-spinners'
 
 
 const router = createBrowserRouter([
@@ -15,6 +16,7 @@ const router = createBrowserRouter([
     path: '/',
     Component: MainLayout,
     hydrateFallbackElement: <p>...Loading</p>,
+    errorElement: <ErrorPage />,
     children: [
       {
         index: true,
@@ -28,6 +30,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/installation',
+        loader: () => fetch('../public/AllData.json'),
         Component: Installation,
       },
       {
@@ -36,15 +39,10 @@ const router = createBrowserRouter([
         Component: CardDetails
       },
       {
-        path: '/apps/details/:id',
+        path: '/details/:id',
         Component: CardDetails,
         loader: () => fetch('../public/AllData.json'),
-        errorElement: <ErrorPage />
       },
-      {
-        path: '*',
-        Component: ErrorPage
-      }
     ]
   },
 ])
